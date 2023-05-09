@@ -1,4 +1,4 @@
-package com.agprastyo.littlelemon
+package de.sebastiangrundhoefer.littlelemon
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -17,8 +17,7 @@ import org.junit.Assert.*
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.agprastyo.littlelemon", appContext.packageName)
+        assertEquals("de.sebastiangrundhoefer.littlelemon", appContext.packageName)
     }
 }
