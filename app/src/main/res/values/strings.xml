@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LittleLemon</string>
+    <string name="onboarding_title">Let\'s get to know you</string>
+    <string name="unsuccessful_reg">Registration unsuccessful. Please enter all data</string>
+    <string name="successful_reg">Registration successful !</string>
+    <string name="hero_intro">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</string>
+</resources>
