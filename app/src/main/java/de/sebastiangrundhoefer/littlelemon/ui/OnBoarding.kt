@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -57,7 +58,7 @@ fun OnBoarding(navController: NavController) {
         // Title with green background
 
         Text(
-            text = "Let's get to know you",
+            text = stringResource(id = string.onboarding_title),
             fontSize = 30.sp,
             fontFamily = FontFamily(Font(R.font.karlaregular)),
             textAlign = TextAlign.Center,
